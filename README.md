@@ -377,8 +377,10 @@ Review the planned changes and confirm the apply process.
 
 - **Frontend Instance**: Access the PHP application using the public IP address assigned to this instance.
 - **Backend Instance**: Access the MySQL database from the frontend instance using internal networking.
+  
 
 ## Usage
+![Screenshot (233)](https://github.com/user-attachments/assets/c17e768c-4550-4fac-b1a4-ac3d009e2d6a)
 
 Deploy your PHP application on the frontend instance and configure it to connect to the MySQL database on the backend instance. Use the security group settings to control access to your application and database.
 
