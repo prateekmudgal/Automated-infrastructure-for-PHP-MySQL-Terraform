@@ -4,10 +4,6 @@
 
 This project demonstrates the deployment of a PHP application with a MySQL database using Terraform. The infrastructure setup includes creating a Virtual Private Cloud (VPC) with 256 IPs, consisting of two subnets: a public subnet with 128 IPs and a private subnet with 64 IPs. The public subnet is used for hosting the PHP application, while the private subnet is reserved for the MySQL database. The PHP application includes a login and signup page for user authentication.
 
-## Architecture Diagram
-
-![Architecture Diagram](link-to-your-diagram-image)
-
 ## Technologies Used
 
 - **Terraform**: Infrastructure as Code (IaC) tool for provisioning and managing cloud resources.
@@ -21,8 +17,8 @@ This project demonstrates the deployment of a PHP application with a MySQL datab
 
 Ensure you have the following installed and configured:
 
-- [Terraform](https://www.terraform.io/downloads.html) v1.0 or later
-- [AWS CLI](https://aws.amazon.com/cli/) configured with appropriate credentials
+- Terraform v1.0 
+- AWS CLI
 - A valid AWS account
 
 ## Terraform Configuration
